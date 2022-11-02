@@ -1,0 +1,229 @@
+@font-face {
+	font-family: "OpenSans-Regular";
+	src: url("Fonts/OpenSans/OpenSans-Regular.ttf");
+}
+
+@font-face {
+	font-family: "OpenSans";
+	src: url("Fonts/OpenSans/OpenSans-SemiBold.ttf");
+}
+
+@font-face {
+	font-family: "OpenSans-Bold";
+	src: url("Fonts/OpenSans/OpenSans-Bold.ttf");
+}
+
+@font-face {
+	font-family: "OpenSans-ExtraBold";
+	src: url("Fonts/OpenSans/OpenSans-ExtraBold.ttf");
+}
+
+@font-face {
+	font-family: "MontHeavy";
+	src: url("Fonts/Mont/MontHeavy.ttf");
+}
+
+@font-face {
+	font-family: "Mont";
+	src: url("Fonts/Mont/Mont.ttf");
+}
+
+
+:root {
+    --color3: rgb(60, 64, 72);
+    --color4: rgb(235, 235, 235);
+    --color5: rgb(43, 72, 101);
+}
+
+/*-------------------------------*/
+
+
+p, h1, h2, h3, h4, h5, h6 {
+	margin: 0px;
+}
+
+
+h1 {
+    font-family: MontHeavy;
+    font-size: 3em;
+}
+
+h2 {
+    font-family: MontHeavy;
+    font-size: 2em;
+}
+
+h3 {
+    font-family: OpenSans-Bold;
+}
+
+ul {
+	list-style: none;
+	padding: 0px;
+}
+
+strong {
+	font-family: OpenSans-Bold;
+}
+
+a:link, a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.pagefoot, .pagefoot a, .pagefoot a:link, .pagefoot a:visited, .menu, .menu a, .menu a:link, menu a:visited {
+    color: var(--color4);
+}
+
+/*-------------------------------*/
+
+
+body {
+	font-family: OpenSans;
+	background-color: rgb(234, 234, 234);
+	margin: 0px;
+	margin-top: 4vh;
+	padding: 0px;
+}
+
+
+/*-------------------------------*/
+
+
+.menu {
+	background-color: var(--color3);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 4vh;
+    min-height: 40px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+nav {
+	width: 37%;
+    min-width: 550px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.menulinks {
+	width: 60%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.menulinks li {
+	display: inline;
+}
+
+
+/*-------------------------------*/
+
+
+.pagehead
+{
+	background-color: rgb(43, 72, 101);
+	background-position: center;
+    color: white;
+	height: 22vh;
+    min-height: 220px;
+	display: flex;
+	justify-content: center;
+}
+
+header {
+	width: 30%;
+    min-width: 450px;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    text-align: justify;
+}
+
+
+/*-------------------------------*/
+
+
+.corps a:hover {
+	text-decoration: none;
+}
+
+.sectiondesc:hover {
+    background-color: rgb(202, 202, 202);
+}
+
+.section {
+    width: 100%;
+    height: 58vh;
+    min-height: 580px;
+    display: flex;
+}
+
+.sectionimg, .sectiondesc {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.sectioncontent {
+    padding: 10%;
+}
+
+
+/*-------------------------------*/
+
+
+.pagefoot {
+	background-color: var(--color3);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	bottom: 0;
+}
+
+footer {
+	width: 38vw;
+    min-width: 550px;
+	padding: 3px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+    font-size: small;
+}
+
+footer h3 {
+	font-size: medium;
+}
+
+footer li {
+	font-family: OpenSans-Regular;
+}
+
+#footernav {
+	text-align: right;
+    color: var(--color4);
+}
+
+#amour {
+	text-align: center;
+}
+
+#amour li {
+	font-family: OpenSans;
+}
+
+#amour li:not(:first-child) {
+	margin-top: 1%;
+}

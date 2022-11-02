@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../loginstyle.css">
+	<title>Le Site de Yanis !</title>
+</head>
+<body>
+
+
+<div class="corps">
+    <div class="accountform">
+        <form method="post" action="form.php">
+            <p>
+                <h1>Inscription</h1>
+                <h3>Coordonnées</h3>
+                    <label for="email">Votre adresse mail* : <br/></label><input type="email" name="email" id="email" size="25" placeholder="Votre adresse mail (obligatoire)" autofocus required>
+
+                   <label for="pseudo">Nom d'utilisateur* : <br/></label><input type="text" name="username" id="pseudo" size="25" maxlength="25" placeholder="Nom d'utilisateur (obligatoire)" required/>
+
+
+                <h3>Flemme de faire un truc cohérent</h3>
+                    <label for="pass">Mot de passe* : <br/></label> <input type="password" name="pass" id="pass" size="25" placeholder="Mot de passe (obligatoire)" required>
+
+                    <label for="passconfirm">Confirmer votre mot de passe* : <br/></label> <input type="password" name="passconfirm" id="passconfirm" size="25" placeholder="Confirmer votre mot de passe (obligatoire)" required>
+
+                    <label for="testliste">J'ai pas d'idée c'est pour un test : <br/></label>
+                        <select name="testliste" id="testliste">
+                            <option value="" disabled selected hidden>Sélectionnez une option</option>
+                            <option value="rouge">Rouge</option>
+                            <option value="huitre">Huître</option>
+                            <option value="prague">Prague</option>
+                            <option value="batman">Batman</option>
+                            <option value="ingenieur">Ingénieur</option>
+                           </select>
+
+                <br/>
+                <input type="submit" value="S'inscrire" id="confirm"/>
+
+            </p>
+        </form>
+    </div>
+
+
+    <div class="accountpagejoli">
+        <div class="textjoli">
+            <h1>Yanis,</h1>
+            <p>Ensemble pour un nouvel ordre mondial</p>
+            <video controls width="100%" poster="/Images/snkwallpaper.png"><source src="/Images/snkop1.mp4" type="video/mp4"></video>
+        </div>
+    </div>
+</div>
+
+
+
+</body>
+</html>

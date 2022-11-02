@@ -1,0 +1,172 @@
+@font-face {
+	font-family: "OpenSans-Regular";
+	src: url("Fonts/OpenSans/OpenSans-Regular.ttf");
+}
+
+@font-face {
+	font-family: "OpenSans";
+	src: url("Fonts/OpenSans/OpenSans-SemiBold.ttf");
+}
+
+@font-face {
+	font-family: "OpenSans-Bold";
+	src: url("Fonts/OpenSans/OpenSans-Bold.ttf");
+}
+
+@font-face {
+	font-family: "OpenSans-ExtraBold";
+	src: url("Fonts/OpenSans/OpenSans-ExtraBold.ttf");
+}
+
+@font-face {
+	font-family: "MontHeavy";
+	src: url("Fonts/Mont/MontHeavy.ttf");
+}
+
+@font-face {
+	font-family: "Mont";
+	src: url("Fonts/Mont/Mont.ttf");
+}
+
+
+/*-------------------------------*/
+
+
+p, h1, h2, h3, h4, h5, h6 {
+	margin: 0px;
+}
+
+h1, h2, h3 {
+	font-family: OpenSans-Bold;
+}
+
+h1 {
+	font-size: 2.3em;
+}
+
+ul {
+	list-style: none;
+	padding: 0px;
+}
+
+strong {
+	font-family: OpenSans-Bold;
+}
+
+a:link {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+
+/*-------------------------------*/
+
+
+body {
+	font-family: OpenSans;
+	background-color: rgb(234, 234, 234);
+	margin: 0px;
+	padding: 0px;
+}
+
+
+/*-------------------------------*/
+
+
+.corps {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+
+
+/*-------------------------------*/
+
+
+.accountform {
+    width: 50%;
+	display: flex;
+	justify-content: center;
+	color: rgb(60, 64, 72);
+}
+
+form {
+	margin: 0%;
+	margin-top: 17vh;
+	width: 20vw;
+}
+
+form h3 {
+	font-family: OpenSans-Bold;
+	margin-bottom: 3px;
+}
+
+input, select  {
+	margin: 0px;
+	font-family: OpenSans;
+	padding: 7px;
+	border: 1px solid rgb(178, 178, 178);
+	border-radius: 4px;
+	border-left: 5px solid rgb(0, 171, 179);
+	width: 100%;
+	margin-top: 4px;
+	margin-bottom: 13px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+::placeholder {
+	color: rgb(160, 160, 160);
+}
+
+#confirm  {
+	font-family: OpenSans;
+	background-color: rgb(0, 171, 179);
+	border: none;
+	box-shadow: 0px 0px 5px 1px grey;
+	
+}
+
+#confirm:focus {
+	box-shadow: inset 0px 0px 5px 2px grey;
+}
+
+
+/*-------------------------------*/
+
+
+.accountpagejoli {
+	width: 50%;
+    background-color: rgb(43, 72, 101);
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.textjoli {
+	margin-top: 17vh;
+	margin: 8%;
+	margin-top: 0%;
+}
+
+.accountpagejoli h1 {
+	font-family: MontHeavy;
+	font-size: 5em;
+}
+
+.accountpagejoli p {
+	font-family: Mont;
+	font-size: 2em;
+	margin-bottom: 25px;
+}
