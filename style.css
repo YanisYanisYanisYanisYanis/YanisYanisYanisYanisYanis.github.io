@@ -114,7 +114,7 @@ nav {
 
 .pagehead
 {
-	background: url(images/yosemite.jpg);
+	background: url(/Images/yosemite.jpg);
 	background-position: center;
 	height: 22vh;
 	display: flex;
